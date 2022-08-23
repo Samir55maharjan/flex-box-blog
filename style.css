@@ -1,0 +1,180 @@
+body {
+    margin: 0%;
+    /* font-size: 2rem; */
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+/* global message section */
+.gbl-content{
+    display: flex;
+justify-content: space-between;
+color: rgba(251, 251, 251, 0.973)
+}
+.global-msg {
+    background: rgba(64, 0, 255, 0.575);
+    line-height: 32px;
+
+} 
+/* top menu nav section */
+.nav-bar{
+    background-color: rgb(218, 164, 93);
+    color: rgb(247, 241, 241);
+    font-size: 24px;
+}
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+/* menu and space tells to apply in all the UL */
+.menu ul {
+display: flex;
+list-style: none;
+}
+.menu ul li{
+    margin-left: 16px
+}
+/* hero section */
+.hero {
+    background: url(img/hero.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    /* or u can write in the backgrounf after url */
+    align-items: center;
+    background-size: cover;
+    position: center;
+    display:  flex;
+justify-content: center;
+}
+.hero-content {
+    background:rgba(12, 1, 1, 0.455);
+    width: 450px;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius:10px;
+
+}
+/* main section */
+.main {
+    display: flex;
+    margin-top: 32px;
+}
+.main-content {
+    
+    width: 66%;
+    margin-right: 1rem;
+
+}
+.side-link {
+    width: 34%;
+   
+}
+article {
+    display: flex;
+    border: 1px solid rgb(72, 63, 63);
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.art-img{
+    width:200px;
+    margin-right: 20px ;
+
+}
+
+
+.title{
+font-size: 1.5rem;
+font-weight: bolder;
+}
+.try {
+    display: flex;
+  justify-content: right;
+}
+.btn{
+    background: rgb(83, 81, 81);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+   
+}
+
+/* aside section */
+.ready-by-country {
+    background: rgb(0, 128, 113);
+    padding: 1 rem;
+    border-radius: 5px;
+    margin-top: 3.5 rem;
+}
+.ready-by-date {
+    background: rgb(129, 165, 161);
+    padding: 1 rem;
+    border-radius: 5px;
+    margin-top: 3.5 rem;
+}
+/* reccomendation section */
+.recc{
+    background:cornflowerblue;
+    margin-top: 2rem;
+    padding: 2rem  0px;
+}
+.card-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.card{
+    /* width: 300px; */
+    margin: 10px 15px;
+    background: rgb(217, 200, 200);
+    border-radius:5px;
+    /* padding: 1rem; */
+    padding-bottom: 1rem;
+    box-shadow: -5px 5px 10px 5px rgb(51, 50, 50);
+    
+}
+.card img{
+    border-radius: 5px 5px 0px 0px;
+}
+.btn-card{
+    width: 200px;
+}
+/* subscription section */
+.subs {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer */
+.footer {
+    background: rgb(43, 41, 41);
+    color: rgb(247, 244, 239);
+    padding: 30px;
+    text-align: center;
+    margin-top: 32px;
+    
+
+}
+/* media query */
+@media (max-width:600px){
+    /* .global-msg {
+        background: rgba(255, 0, 25, 0.575);
+        line-height: 32px;
+        font-size: 2rem;
+        color: black;
+    } 
+    .menu ul{
+        background: white;
+        display: flex;
+        flex-direction: column;
+        color: black;
+    } */
+    
+}
